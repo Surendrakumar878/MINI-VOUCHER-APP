@@ -1,0 +1,23 @@
+#purchased_vouchers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#purchased_vouchers>div {
+    width: 60%;
+}
+
+#purchased_vouchers>div>img {
+    width: 100%;
+}
+
+#navbar {
+    justify-content: right;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+
+#navbar>div {
+    margin-left: 20px;
+}
